@@ -7,7 +7,7 @@ function specialNumbers(number) {
   for (let i = 1; i <= number; i++) {
     digit = i.toString();
     lastDigit = i % 10;
-    if (digit.length == "1") {
+    if (digit.length == 1) {
       lastDigit = parseInt(lastDigit / 10);
     }
     sum = lastDigit + Number(digit[0]);
