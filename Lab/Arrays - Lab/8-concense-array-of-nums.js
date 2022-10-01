@@ -1,17 +1,13 @@
 function condense(arr) {
-    let num = [];
-    for (let i = 0; i < arr.length; i++) {
-        num[i] = Number(arr[i]);
-    }
-    while (num.length > 1) {
+    while (arr.length > 1) {
         let condense = [];
-        for (let i = 0; i < num.length - 1; i++) {
-            condense[i] = Number(num[i] + num[i + 1]);
+        for (let i = 0; i < arr.length - 1; i++) {
+            condense[i] = Number(arr[i] + arr[i + 1]);
  
         }
-        num = condense;
+        arr = condense;
         condense = 0;
     }
-        console.log(Number(num));
+        console.log(Number(arr));
 }
-condense([3])
+condense([2,10,3])
