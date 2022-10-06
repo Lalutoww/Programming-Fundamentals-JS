@@ -12,6 +12,7 @@ function magicNumbers(arr, resultNum){
         }
     }
     let buff = '';
+    console.log(magicNumArr);
     for(let i = 0; i < magicNumArr.length; i++){
         if(i % 2 === 0 && i !== 0){
             buff+='\n' + magicNumArr[i] + ' ';
