@@ -33,7 +33,7 @@ function needForSpeed(input){
 
             if(carStorage[carName].mileage >= 100000){
                 delete carStorage[carName];
-                console.log(`Time to sell the ${carName}!-`);
+                console.log(`Time to sell the ${carName}!`);
             }
             break; 
             case 'Refuel':
