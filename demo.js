@@ -1,1 +1,0 @@
-console.log('icecream::hot::summer'.substring(3,3));
