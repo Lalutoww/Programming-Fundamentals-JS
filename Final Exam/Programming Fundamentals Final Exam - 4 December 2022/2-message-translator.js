@@ -16,7 +16,7 @@ function messageTranslator(input){
                 let command = exec.groups['command']
                 console.log(`${command}: ${temp}`)
 
-                exec = validPattern.exec(text);
+               exec = validPattern.exec(text);
             }
         }else{
             console.log('The message is invalid');
